@@ -1,0 +1,30 @@
+.google {
+	width: 230px;
+	height: 90px;
+
+	position: center;
+	margin-top: 120px;
+	padding-bottom: 60px;
+}
+
+.search {
+	border:2px dotted #7FFF00;
+	width: 370px;
+	height: 20px;
+	
+}
+
+.button {
+	width: 100px;
+	height: 36px;
+	background-color: #F2F2F2;
+	border: 0px;
+}
+
+.button2 {
+	width: 170px;
+	height: 36px;
+	background-color: #F2F2F2;
+	margin: 11px 4px;
+	border: 0px;
+}
