@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+	<meta charset="utf-8">
+
 <head>
 
 	<link rel="stylesheet" href="index.css">
@@ -10,13 +12,29 @@
 </head>
 
 <body>
+	
+	<ul class="top-nav">
+		<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+		<li><a href="https://www.google.fi/imghp?hl=fi&tab=wi">Kuvahaku</a></li>
+		<li><a id="kirjaudu" href="https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.fi/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3D3UfTWvv9O-a7ygXQuaHYBw">Kirjaudu Sisään</a></li>
+	</ul>
+	
 
 	<center>
 		<img class="google" src="https://www.google.fi/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 			<form>
-				<input class="search" type="text"><br>
+				<div class="search"></div>
+				<input class="search-inner" type="text">
+				<br>
 				<input class="button" type="button" value="Google-haku">
-				<input class="button2" type="button" value="Kokeillen onneani">
+				<input class="button2" type="button" value="Kokeilen onneani">
+				<p class="versions">Googlen versiot:
+					<a href="https://www.google.fi/setprefs?sig=0_tSCfFb0Rq6WKEoJ1ue4ZVDImvkk%3D&hl=sv&source=homepage&sa=X&ved=0ahUKEwiEiO-aprzaAhXCJFAKHaBXBbQQ2ZgBCAg">svenska</a>
+					<a href="https://www.google.fi/setprefs?sig=0_tSCfFb0Rq6WKEoJ1ue4ZVDImvkk%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiEiO-aprzaAhXCJFAKHaBXBbQQ2ZgBCAk">English</a>
+
+
+				</p>
+
 			</form>
 
 	</center>

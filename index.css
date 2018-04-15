@@ -1,5 +1,5 @@
 .google {
-	width: 230px;
+	width: 250px;
 	height: 90px;
 
 	position: center;
@@ -8,9 +8,22 @@
 }
 
 .search {
-	border:2px dotted #7FFF00;
-	width: 370px;
-	height: 20px;
+	border:0.5px solid #EAEAEA;
+	width: 390px;
+	height: 30px;
+	box-shadow: 0px 1.5px 3px 1px #CBCBCB;
+
+}
+
+.search-inner {
+	border: 0px solid black;
+	background-color: #ffffff;
+	z-index: 1;
+	position: absolute;
+	width: 305px;
+	height: 28px;
+	top: 283px;
+	left: 405px;
 	
 }
 
@@ -27,4 +40,44 @@
 	background-color: #F2F2F2;
 	margin: 11px 4px;
 	border: 0px;
+}
+
+
+
+
+p {
+	font-size: small;
+}
+
+
+
+.top-nav {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+
+
+}
+
+.top-nav li {
+	padding: 10px;
+	
+}
+
+
+.top-nav a {
+	text-decoration: none;
+	color: #272727;
+}
+
+
+.versions a {
+	text-decoration: none;
+}
+
+#kirjaudu {
+	background-color: blue;
+	color: white;
 }
