@@ -55,9 +55,9 @@ p {
 	display: inline-flex;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	float: right;
-
+	padding: 5px;
+	right: 20px;
+	position: absolute;
 
 }
 
@@ -70,6 +70,10 @@ p {
 .top-nav a {
 	text-decoration: none;
 	color: #272727;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+	
+
 }
 
 
@@ -77,7 +81,21 @@ p {
 	text-decoration: none;
 }
 
-#kirjaudu {
-	background-color: blue;
-	color: white;
+.kirjaudu {
+	background-color: #4683EA;
+	margin-left: 5px;
+
 }
+
+.kirjaudu a {
+	color: white;
+	font-weight: bold;
+	
+}
+
+.footer1 {
+	display: block;
+	background-color: red;
+	margin: 0;
+}
+
